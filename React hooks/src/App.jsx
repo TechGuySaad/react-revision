@@ -1,18 +1,19 @@
 // import Effect from "./hooks/Effect";
-import { ThemeContext } from "./hooks/ThemeProvider";
-import { useContext } from "react";
+// import { ThemeContext } from "./hooks/ThemeProvider";
+// import { useContext } from "react";
 
 function App() {
-  const { theme, setTheme } = useContext(ThemeContext);
-  const handleTheme = () => {
-    if (theme === "light") setTheme("dark");
-    if (theme === "dark") setTheme("light");
-  };
+  // const { theme, setTheme } = useContext(ThemeContext);
+  // const handleTheme = () => {
+  //   if (theme === "light") setTheme("dark");
+  //   if (theme === "dark") setTheme("light");
+  // };
   return (
     <>
+      <h1>Hello these are my hook tasks</h1>
       {/* <State /> */}
       {/* <Effect /> */}
-      <div
+      {/* <div
         style={{
           backgroundColor: theme === "light" ? "white" : "black",
           color: theme === "dark" ? "white" : "black",
@@ -20,7 +21,7 @@ function App() {
       >
         {theme}
       </div>
-      <button onClick={handleTheme}>Toggle Theme</button>
+      <button onClick={handleTheme}>Toggle Theme</button> */}
     </>
   );
 }
