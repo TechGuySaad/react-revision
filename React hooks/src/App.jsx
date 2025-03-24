@@ -1,6 +1,7 @@
 // import Effect from "./hooks/Effect";
 // import { ThemeContext } from "./hooks/ThemeProvider";
 // import { useContext } from "react";
+import Ref from "./hooks/Ref";
 
 function App() {
   // const { theme, setTheme } = useContext(ThemeContext);
@@ -22,6 +23,7 @@ function App() {
         {theme}
       </div>
       <button onClick={handleTheme}>Toggle Theme</button> */}
+      <Ref />
     </>
   );
 }
